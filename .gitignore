@@ -14,4 +14,4 @@ staticfiles/
 media/
 
 # Docker
-*.log
+*.log.env
