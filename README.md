@@ -523,6 +523,3 @@ La plus frustrante : l'erreur 500 sur la page `/success/` après un paiement Str
 
 L'autre difficulté c'était la config de Minikube sur ARM, avec plusieurs tentatives de démarrage (`--driver=docker`, `--preload=false`, réinstallation de Colima) avant d'arriver à quelque chose de stable.
 
-**Améliorations possibles :**
-
-Si j'avais plus de temps, j'ajouterais un **Ingress Controller** (Nginx Ingress) pour gérer le routage HTTP avec des noms de domaine au lieu de ports, des **health checks** (liveness/readiness probes) pour que Kubernetes redémarre automatiquement les pods en erreur, un **Horizontal Pod Autoscaler** pour adapter le nombre de réplicas selon la charge, et surtout une vraie base PostgreSQL dans le cluster au lieu de SQLite, parce que SQLite en conteneur répliqué ça n'a pas vraiment de sens en production.
