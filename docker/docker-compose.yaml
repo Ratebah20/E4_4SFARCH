@@ -1,0 +1,25 @@
+services:
+
+  django-adminlte-ra-05-03-2026:
+    build: ../django-adminlte
+    container_name: django-adminlte-ra-05-03-2026
+    ports:
+      - "5001:5005"
+    env_file:
+      - ../django-adminlte/env.sample
+
+  django-star-ra-05-03-2026:
+    build: ../django-star-admin
+    container_name: django-star-ra-05-03-2026
+    ports:
+      - "5002:5005"
+    env_file:
+      - ../django-star-admin/env.sample
+
+  rocket-ecommerce-ra-05-03-2026:
+    build: ../priv-rocket-ecommerce-main
+    container_name: rocket-ecommerce-ra-05-03-2026
+    ports:
+      - "5003:5005"
+    env_file:
+      - ../priv-rocket-ecommerce-main/.env
