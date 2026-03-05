@@ -1,151 +1,16 @@
-colima start
-clear
-claude 
-claer
-clear
-cd NestJS_MytrainingHQ
 git add .
 git commit -m "add func auth"
 git push
-ls
-cd NestJS_MytrainingHQ
-npm run start:dev
-npm run start:dev
-clear
-clera
-clear
-claude update
-clear
-claude
-clear
-clear
-cd frontMyTraningHR
-npm run dev
-npm run dev
-npm run dev
-clear
-ls
-colima start
-colmia start
-colima start
-claude update
-claude
-colima stop
-clear
-clear
-cd apps/wapi
-cd apps/api
-clear
-ls
-cd apps/api
-ls
-clear
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-claude
-clear
-ls
-claude
-ls
-claude
-clear
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run build
-npm run build
-npm run start:dev
-npm run start:dev
-npm run dec
-npm run dev
-cd infera.md
-cd ..
-ls
-cd Infera_studio
-cd landing-page
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-clear
-clear
-npm run dev
-npm run dev
-clear
-claer
-cler
-clear
-clear
-claude update
-clear
-clear
-claude
-clear
-claude updatae
-clear
-claude update
-clear
-claude
-ls
-claude update
-clear
-claude
-clear
-claude
-clear
-ls
-npm run dev
-npm run dev
-clear
-clear
-claude update
-clea
-cler
-clear
-claude
-clear
-claude
-npm run start:dev
-npm run dev
-colima status
-colima start
-clear
-clear
-claud
-claude
-clear
-claer
-clear
-claer
-clear
-curl -I http://localhost:8080
 minikube addons enable ingress
 minikube addons enable metrics-server
 kubectl get pod
 kubectl get pod -o wide
-curl -I 10.244.0.4
 minikube ssh
 minikube ssh
 kubectl delete pod nginx
-exit
 kubectl get pod
 kubectl describe pod ngix
 kubectl describe pod nginx
-k get pod -o wide
 kubectl get pod -o wide
 minikube ssh
 minikube ssh
@@ -159,30 +24,8 @@ minikube ip
 kubectl get service
 kubectl port-forward --address 0.0.0.0 services/nginx-deployment 5000:80
 kubectl port-forward --address 0.0.0.0 services/nginx-deployment 8080:80
-curl -I http://localhost:8080
 kubectl port-forward --address 0.0.0.0 services/nginx-deployment 8080:80
-clear
-claude update
-clear
-claude
-clear
-clear
-clear
-colima start
-claude
-claude update
-clear
-ls
-cd Documents
-ls
-cd Dev
-claude
-clear
-clear
-clear
 docker-compose up --build -d
-ls
-cd priv-rocket-ecommerce-main
 docker-compose up --build -d
 docker-compose up --build -d
 docker-compose up --build -d
@@ -202,8 +45,6 @@ docker-compose logs -f
 docker-compose exec db psql -U rocket_user -d rocket_db
 docker-compose exec db psql -U rocket_user -d rocket_db
 docker-compose exec db psql -U rocket_user -d rocket_db
-cd priv-rocket-ecommerce-main
-ls
 docker-compose logs -f
 docker images
 docker build -t app:alpin .
@@ -215,127 +56,9 @@ docker stop 503c312adb63 && docker rm 503c312adb63 && docker rmi 1670096f8707
 docker images
 docker images
 docker images
-clear
-clera
-clear
-colima ssh
-clear
-minikubs status
 minikube status
 kubectl version
 minikube ip
-	clear
-claude
-lear
-clear
-openclaw satart
-openclaw start
-openclaw help
-openclaw 
-clear
-clear
-claer
-openclaw
-openclaw gateway
-openclaw dashboard
-/status
-openclaw models
-openclaw update
-openclaw config set
-nano ~/.openclaw/openclaw.json
-npm run dev
-clear
-claude
-clear
-npm run start:dev
-openclaw modele
-openclaw model
-openclaw models
-openclaw dashboard
-openclaw stop
-	openclaw gateway stop
-openclaw gateway
-openclaw dashboard
-cd landing-page/
-npm run dev
-npm run dev
-ls
-cd apps/api
-npm run start:dev
-cd apps/web
-npm run dev
-colima start
-cd dev
-ls
-cd Do
-cd Documents
-ls
-cd Dev
-npm install -g @google/gemini-cli
-sudo npm install -g @google/gemini-cli --force
-gemini
-clear
-gemini
-exit
-ls
-claude update
-clear
-clear
-claude
-clear
-claude
-pnpm run dev
-ls
-npm run dev
-ls
-claude
-clear
-npm run dev
-cd maison-aurel-site
-ls
-npm run dev
-claude update
-cd apps/api
-npm run start:dev
-cd apps/web
-npm run dev
-npm install -D -W "@types/node"
-colima start
-cd apps/web
-npm run dev
-npm run dev
-npm run dev
-claude
-cd apps/api
-npm run start:dev
-colima start
-npm run start:dev
-npm run start:dev
-claude update
-clear
-claude
-npm run start:dev
-npm run dev
-claude update
-clear
-claude
-ls
-claude
-ls
-npm run dev
-claude
-claude
-claude
-clear
-ls
-claude
-cd atelier-beaute
-npm run dev
-npm run dev
-npm run dev
-claude update
-clear
-claude
 kubectl create -f nginxpod.yaml
 kubectl get service
 kubectl get pod -o wide
@@ -348,23 +71,12 @@ git clone https://github.com/app-generator/django-soft-1771923471.git
 git clone https://github.com/app-generator/flask-datta-1771904624.git
 git clone https://github.com/app-generator/django-material-kit-1771866234.git
 docker login
-cd django-material-kit-1771866234
-ls
-cat Dockerfile
-ls
-cd ..
-cd django-material-kit-1771866234
 eval $(minikube docker-env)
 docker build -t django-app:v1 .
-sed -i 's/teste usuario 1/teste_usuario_1/g; s/teste 1/teste_1/g; s/teste 2/teste_2/g' home/models.py
 docker build -t django-app:v1 .
 kubectl apply -f django1.yaml
-k get pods
 kubectl get pods
 kubectl get service
-cd ..
-cd django-soft-1771923471
-cat Dockerfile
 docker build -t django-soft:v1 .
 kubectl apply -f django2.yaml
 kubectl get pods
@@ -372,23 +84,15 @@ kubectl get service
 kubectl get pod -l app=django
 kubectl get pods
 kubectl apply -f django2.yaml
-k get pods
 kubectl get pods
 kubectl exec -it django-soft-deployment-76c6df8dc4-snx2t -- python manage.py migrate
-cd..
-cd ..
 docker tag django-app:v1 rateb99/django-app:v1
 docker tag django-app:v1 rateb99/django-soft:v1
 docker push rateb99/django-app:v1\
-
 docker push rateb99/django-soft:v1\
-
 kubectl get pobs
 kubectl get pods
 kubectl get service
-colima ssh
-clear
-ls
 kubectl apply -f https://k8s.io/examples/application/deployment.yaml
 kubectl describe deployment nginx-deployment
 kubectl get pods -l app=nginx
@@ -399,13 +103,9 @@ kubectl get pods -l app=nginx
 kubectl get pods -l app=nginx
 kubectl describe deployment nginx-deployment
 kubectl get pods -l app=nginxkubectl apply -f https://k8s.io/examples/application/deployment-scale.yaml\
-
 kubectl get pods -l app=nginxkubectl apply -f https://k8s.io/examples/application/deployment-scale.yaml\
-
 kubectl get pods -l app=nginxkubectl apply -f https://k8s.io/examples/application/deployment-scale.yaml\
-
 kubectl apply -f https://k8s.io/examples/application/deployment-scale.yaml\
-
 kubectl get pods -l app=nginx
 kubectl delete deployment nginx-deployment
 kubectl get pods -l app=nginx
@@ -420,7 +120,6 @@ kubectl apply -f https://k8s.io/examples/application/guestbook/redis-leader-depl
 kubectl get pods
 kubectl logs -f deployment/redis-leader
 kubectl get pods
-curl -o redis-leader-deployment.yaml https://k8s.io/examples/application/guestbook/redis-leader-deployment.yaml
 sed -i 's|docker.io/redis:6.0.5|redis:7.0|g' redis-leader-deployment.yaml
 sed -i '' 's|docker.io/redis:6.0.5|redis:7.0|g' redis-leader-deployment.yam
 sed -i '' 's|docker.io/redis:6.0.5|redis:7.0|g' redis-leader-deployment.yaml
@@ -430,11 +129,9 @@ kubectl delete deployment redis-leader
 kubectl apply -f redis-leader-deployment.yaml
 kubectl get pods
 sed -i '' 's|docker.io/redis:6.0.5|redis:7.0|g' redis-leader-deployment.yaml
-cat redis-leader-deployment.yaml | grep image
 kubectl delete deployment redis-leader
 kubectl apply -f redis-leader-deployment.yaml
 kubectl get pods
-sed -i '' 's|image: "registry.k8s.io/redis@sha256:.*"|image: "redis:7.0"|g' redis-leader-deployment.yaml
 kubectl delete deployment redis-leader
 kubectl apply -f redis-leader-deployment.yaml
 kubectl get pods
@@ -454,9 +151,7 @@ kubectl get pods
 kubectl get pods
 kubectl logs redis-follower-6958c9f49c-6x987
 kubectl logs redis-follower-6958c9f49c-6x987\
-
 kubectl delete deployment redis-follower\
-
 kubectl get pods
 kubectl apply -f redis-follower-deployment.yaml
 kubectl get pods
@@ -467,82 +162,38 @@ kubectl get serive
 kubectl get service
 kubectl apply -f https://k8s.io/examples/application/guestbook/frontend-deployment.yaml
 kubectl get pods -l app=guestbook -l tier=frontend\
-
 kubectl get pods -l app=guestbook -l tier=frontend\
-
 kubectl get pods -l app=guestbook -l tier=frontend\
-
 kubectl get pods -l app=guestbook -l tier=frontend\
-
 kubectl logs frontend-88dcd974c-jbf4g\
-
-colima stop
-colima start --arch x86_64 --memory 4 --cpu 2
 eval $(minikube docker-env)
 minikube delete
 minikube start --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0\
-
-colima stop
-colima delete
-colima start --arch x86_64 --memory 4 --cpu 2
-brew install qemu
-colima start --arch x86_64 --memory 4 --cpu 2
-brew install lima-additional-guestagents
-colima start --arch x86_64 --memory 4 --cpu 2
-colima delete
-colima start --arch x86_64 --memory 4 --cpu 2
-colima ssh
 minikube delete\
-
 minikube start --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0
 kubectl apply -f https://k8s.io/examples/application/guestbook/redis-leader-deployment.yaml\
-
 kubectl get pods\
-
 kubectl logs -f deployment/redis-leader
 kubectl get pods\
-
 kubectl get pods\
-
 kubectl logs redis-leader-6465bf85d4-q4zq6\
-
 minikube profile list
 minikube delete\
-
 eval $(minikube docker-env)\
-
 minikube start --driver=docker --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0\
-
 minikube delete\
-
 minikube start --driver=docker --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0 --docker-opt="platform=linux/amd64"
 eval $(colima docker-env)\
-
-colima -v
-colima start
 eval $(colima docker-env)\
-
 export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"\
-
 minikube start --driver=docker --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0
 minikube delete --purge\
-
 minikube start --driver=docker --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0
 export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"\
-
 docker pull --platform linux/amd64 gcr.io/k8s-minikube/kicbase:v0.0.49\
-
 docker pull --platform linux/amd64 gcr.io/k8s-minikube/kicbase:v0.0.49
-unset DOCKER_HOST\
-
 export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"\
-
 docker info | grep Architecture\
-
-unset MINIKUBE_ACTIVE_DOCKERD\
-unset DOCKER_HOST\
-unset DOCKER_TLS_VERIFY\
-unset DOCKER_CERT_PATH\
 export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"\
 docker info | grep Architecture
 	docker pull --platform linux/amd64 gcr.io/k8s-minikube/kicbase:v0.0.49
@@ -550,195 +201,61 @@ minikube start --driver=docker --listen-address=0.0.0.0 --memory=max --cpus=max 
 DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock" minikube start --driver=docker --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0
 DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock" minikube start --driver=docker --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0 --preload=false
 minikube delete --purge\
-
-brew uninstall qemu\
-
-brew uninstall lima-additional-guestagents\
-
-colima stop
-brew uninstall lima-additional-guestagents\
-
-brew uninstall qemu
-brew uninstall qemu\
-
-colima delete\
-
-colima start --memory 4 --cpu 2\
-
 minikube start --listen-address=0.0.0.0 --memory=max --cpus=max --kubernetes-version=v1.35.0
 eval $(minikube docker-env)\
-
 git clone https://github.com/kubernetes/examples\
-
-ls
-cd examples
-ls
-find . -name "Dockerfile" 2>/dev/null
-cat ./web/guestbook/php-redis/Dockerfile
-cd web/guestbook/php-redis\
-
-sed -i '' 's/php:5-apache/php:7.4-apache/' Dockerfile\
-
 eval $(minikube docker-env)\
-
 docker build -t guestbook-frontend:v1 .\
-
-cd ..
-ls
-cd ..
-ls
-cd ..
-cd ..
-ls
 kubectl apply -f redis-leader-deployment.yaml
 kubectl apply -f redis-leader-service.yaml
 kubectl apply -f redis-follower-deployment.yaml
 kubectl apply -f redis-follower-service.yaml
-cat frontend-service.yaml
 kubectl apply -f frontend-deployment.yaml\
-
 kubectl apply -f frontend-service.yaml
 kubectl get pods
 kubectl get pods -l app=guestbook -l tier=frontend\
-
 kubectl get services\
-
 kubectl port-forward svc/frontend 8080:80
 kubectl get service frontend\
-
 kubectl scale deployment frontend --replicas=5\
-
 kubectl get pods
 kubectl scale deployment frontend --replicas=2\
-
 kubectl get pods\
-
 kubectl delete deployment -l app=redis\
 kubectl delete service -l app=redis\
 kubectl delete deployment frontend\
 kubectl delete service frontend
 kubectl get pods\
-
 kubectl get service\
-
-cat > nginx-deployment.yaml << 'EOF'\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: nginx-deployment\
-  labels:\
-    app: nginx\
-spec:\
-  replicas: 3\
-  selector:\
-    matchLabels:\
-      app: nginx\
-  template:\
-    metadata:\
-      labels:\
-        app: nginx\
-    spec:\
-      containers:\
-      - name: nginx\
-        image: nginx:1.14.2\
-        ports:\
-        - containerPort: 80\
-EOF
 kubectl apply -f nginx-deployment.yaml\
-
 kubectl get deployments\
-
 kubectl get deployments\
-
 kubectl get deployments\
-
 kubectl rollout status deployment/nginx-deployment\
-
 kubectl get rs\
-
 kubectl get pods --show-labels\
-
 kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1\
-
 kubectl rollout status deployment/nginx-deployment\
-
 kubectl get pobs
 kubectl get pods
 kubectl describe pods
 kubectl get rs\
-
 kubectl get pods\
-
 kubectl set image deployment/nginx-deployment nginx=nginx:1.161\
-
 kubectl rollout status deployment/nginx-deployment\
-
 [200~kubectl get pods
-~
 kubectl get pods\
-
 kubectl rollout undo deployment/nginx-deployment\
-
 kubectl rollout undo deployment/nginx-deployment\
-
 kubectl get pods\
-
 kubectl get pods\
-
 kubectl rollout undo deployment/nginx-deployment\
-
 kubectl get pods\
-
 kubectl rollout history deployment/nginx-deployment\
-
 kubectl rollout history deployment/nginx-deployment --revision=1\
-
 kubectl rollout undo deployment/nginx-deployment --to-revision=1\
-
 kubectl get pods
-curl -I 10.244.0.11
-clear
-curl -I 10.111.127.34
-curl -I 10.111.127.34:8080
-curl -I 10.244.0.11:8080
-curl -I 10.244.0.11:8080
-cd ..
-cd ..
-ls
 cd docker
-ls
-colima start
-claude
-claer
-clear
-clear
-claude
-cd apps/api
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-npm run start:dev
-cd apps/web
-npm run dev
-npm run dev
-npm run dev\ 
-npm run dev
-npm run dev
-npm run dev
-ls
-npm run dev
-npm run dev
-npm run dev
-ls
-claude update
-clear
-claude
-claude
 kubectl get pods
 minikube ip
 minikube start
@@ -751,54 +268,21 @@ kubectl rollout undo deployment/nginx-deployment --to-revision=5
 kubectl get pods
 	kubectl describe deployments.apps | grep Image
 kubectl rollout undo deployment/nginx-deployment --to-revision=6\
-
 	kubectl describe deployments.apps | grep Image
 kubectl scale deployment/nginx-deployment --replicas=10
 kubectl get pods
 kubectl rollout pause deployment/nginx-deployment
 kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1\
-
 kubectl rollout status deployment/nginx-deployment
 kubectl get pods
 kubectl rollout resume deployment/nginx-deployment\
-
 kubectl rollout status deployment/nginx-deployment\
-
 kubectl get pods
-cat > nginx-deployment.yaml << 'EOF'\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: nginx-deployment\
-  labels:\
-    app: nginx\
-spec:\
-  replicas: 3\
-  strategy:\
-    type: Recreate\
-  selector:\
-    matchLabels:\
-      app: nginx\
-  template:\
-    metadata:\
-      labels:\
-        app: nginx\
-    spec:\
-      containers:\
-      - name: nginx\
-        image: nginx:1.14.2\
-        ports:\
-        - containerPort: 80\
-EOF
 kubectl apply -f nginx-deployment.yaml\
-
 kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1\
-
 kubectl get pods -w\
-
 kubectl set image deployment/nginx-deployment nginx=nginx:1.18.0
 kubectl get pods -w\
-
 eval $(minikube docker-env)
 docker image
 docker images
@@ -807,14 +291,6 @@ docker images
 git clone https://github.com/app-generator/ecommerce-flask-stripe.git
 git clone https://github.com/app-generator/django-adminlte
 git clone https://github.com/app-generator/django-star-admin
-cd django-adminlte
-cd ..
-cat ecommerce-flask-stripe/Dockerfile\
-cat django-adminlte/Dockerfile\
-cat django-star-admin/Dockerfile
-cat ecommerce-flask-stripe/Dockerfile\
-cat django-adminlte/Dockerfile\
-cat django-star-admin/Dockerfile
 eval $(minikube docker-env)
 docker build -t flask-stripe:v1 ecommerce-flask-stripe/\
 docker build -t django-adminlte:v1 django-adminlte/\
@@ -822,122 +298,10 @@ docker build -t django-star:v1 django-star-admin/
 docker build -t flask-stripe:v1 ecommerce-flask-stripe/\
 docker build -t django-adminlte:v1 django-adminlte/\
 docker build -t django-star:v1 django-star-admin/
-cat ecommerce-flask-stripe/gunicorn-cfg.py\
-cat django-adminlte/gunicorn-cfg.py\
-cat django-star-admin/gunicorn-cfg.py
 docker run -p 5001:5005 flask-stripe:v1
 docker run -p 5002:5005 django-adminlte:v1
 docker run -p 5003:5005 django-star:v1
 minikube ip
-cat > flask-stripe-deployment.yaml << 'EOF'\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: flask-stripe-deployment\
-spec:\
-  replicas: 1\
-  selector:\
-    matchLabels:\
-      app: flask-stripe\
-  template:\
-    metadata:\
-      labels:\
-        app: flask-stripe\
-    spec:\
-      containers:\
-      - name: flask-stripe\
-        image: flask-stripe:v1\
-        imagePullPolicy: Never\
-        ports:\
-        - containerPort: 5005\
-EOF\
-\
-cat > flask-stripe-service.yaml << 'EOF'\
-apiVersion: v1\
-kind: Service\
-metadata:\
-  name: flask-stripe-service\
-spec:\
-  type: LoadBalancer\
-  selector:\
-    app: flask-stripe\
-  ports:\
-  - port: 5005\
-    targetPort: 5005\
-EOF
-cat > django-adminlte-deployment.yaml << 'EOF'\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: django-adminlte-deployment\
-spec:\
-  replicas: 1\
-  selector:\
-    matchLabels:\
-      app: django-adminlte\
-  template:\
-    metadata:\
-      labels:\
-        app: django-adminlte\
-    spec:\
-      containers:\
-      - name: django-adminlte\
-        image: django-adminlte:v1\
-        imagePullPolicy: Never\
-        ports:\
-        - containerPort: 5005\
-EOF\
-\
-cat > django-adminlte-service.yaml << 'EOF'\
-apiVersion: v1\
-kind: Service\
-metadata:\
-  name: django-adminlte-service\
-spec:\
-  type: NodePort\
-  selector:\
-    app: django-adminlte\
-  ports:\
-  - port: 5005\
-    targetPort: 5005\
-    nodePort: 30003\
-EOF
-cat > django-star-deployment.yaml << 'EOF'\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: django-star-deployment\
-spec:\
-  replicas: 1\
-  selector:\
-    matchLabels:\
-      app: django-star\
-  template:\
-    metadata:\
-      labels:\
-        app: django-star\
-    spec:\
-      containers:\
-      - name: django-star\
-        image: django-star:v1\
-        imagePullPolicy: Never\
-        ports:\
-        - containerPort: 5005\
-EOF\
-\
-cat > django-star-service.yaml << 'EOF'\
-apiVersion: v1\
-kind: Service\
-metadata:\
-  name: django-star-service\
-spec:\
-  type: ClusterIP\
-  selector:\
-    app: django-star\
-  ports:\
-  - port: 5005\
-    targetPort: 5005\
-EOF
 kubectl apply -f flask-stripe-deployment.yaml\
 kubectl apply -f flask-stripe-service.yaml\
 kubectl apply -f django-adminlte-deployment.yaml\
@@ -946,117 +310,15 @@ kubectl apply -f django-star-deployment.yaml\
 kubectl apply -f django-star-service.yaml
 kubectl get pods
 kubectl get service
-curl -I 10.102.213.101:32538
-curl -I 192.168.49.2:52538
-colima ssh
 kubectl get service
 kubectl get pods
-colima ssh
 kubectl get nodes -o wide
-colima ssh
 minikube stop
-cd apps/api
-npm run dev
-npm run start:dev
-claude
-clear
-claude update
-claer
-claer
-claer
-clear
-clear
-claude
-claude
-cd apps/web
-npm run dev
-colima start
-mkdir fiber
-cd fiber
-ls
 git clone https://github.com/Ratebah20/fiberBackNew.git
 git clone https://github.com/Ratebah20/fiberFrontNew.git
-clear
-clear
-claude update
-clear
-clear
-claude
-claude
-ls
-claude
-lsof -i -P -n | grep LISTEN | grep -E 'node|npm|next'
-claude
-claude
-ls
-clear
-cd fleet
-ls
-claude
 git clone https://github.com/Ratebah20/oldFiber.git
-ls
 git clone https://github.com/Ratebah20/fleet.git
-clear
-colima start
-cd ..
-cd infera-green-videos
-pnpm dev
-pnpm dev
-cluade
-claude
-claude update
-clear
-claude
-clear
-clear
-claude
-clear
-claude update
-clear
-claude
-clear
-clear
-claide
-claude
-clear
-cd apps/web
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-cd ..
-ls
-claude
-lear
-clear
-clear
-cd apps/api
-npm run start:dev
-npm run start:dev
-colima stat
-colima start
-colima stop
-apps/web
-npm run dev
-clea
-clear
-ls
-npm run dev
-npm run dev
-cd apps/api
-npm run start:dev
-claude update
-ls
 git status
-claude
-claude
-colima start
-colima strat
-colima start
-claude
-claude
 kubectl get pods
 kubectl get service
 minikube start
@@ -1065,9 +327,6 @@ kubectl get service
 kubectl delete all -all
 kubectl delete --help
 kubectl delete all --all\
-
-clear
-clear
 kubectl create namespace prod\
 kubectl create namespace preprod\
 kubectl create namespace dev\
@@ -1076,42 +335,6 @@ kubectl get namespaces prod
 kubectl get all -n prod
 eval $(minikube docker-env)\
 docker images
-cat > prod-flask-stripe.yaml << 'EOF'\
-apiVersion: v1\
-kind: Service\
-metadata:\
-  name: flask-stripe-service\
-  namespace: prod\
-spec:\
-  type: LoadBalancer\
-  selector:\
-    app: flask-stripe\
-  ports:\
-  - port: 5005\
-    targetPort: 5005\
----\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: flask-stripe-deployment\
-  namespace: prod\
-spec:\
-  replicas: 3\
-  selector:\
-    matchLabels:\
-      app: flask-stripe\
-  template:\
-    metadata:\
-      labels:\
-        app: flask-stripe\
-    spec:\
-      containers:\
-      - name: flask-stripe\
-        image: flask-stripe:v1\
-        imagePullPolicy: Never\
-        ports:\
-        - containerPort: 5005\
-EOF
 docker images
 kubectl apply -f prod-flask-stripe.yaml\
 kubectl apply -f preprod-django-adminlte.yaml\
@@ -1119,13 +342,9 @@ kubectl apply -f dev-django-star.yaml
 kubectl get pods
 kubectl get all -n pods
 kubectl get all -n dev
-colima ssh
 kubectl get all -n preprod
-colima ssh
 minikube ip
-colima ssh
 kubectl get all -n prod
-colima ssh
 kubectl get all -n prod
 kubectl get pod flask-stripe-deployment -n prod
 kubectl get pod flask-stripe-deployment-6949b9df5-h8v5t -n prod
@@ -1141,205 +360,48 @@ kubectl create secret generic mysql-pass --from-literal=password=Azerty123!
 kubectl ger secret
 kubectl get secrets
 kubectl describe secret mysql-pass\
-
-cat > mysql-pvc.yaml << 'EOF'\
-apiVersion: v1\
-kind: PersistentVolumeClaim\
-metadata:\
-  name: mysql-pv-claim\
-spec:\
-  accessModes:\
-    - ReadWriteOnce\
-  resources:\
-    requests:\
-      storage: 20Gi\
-EOF
-cat > wordpress-pvc.yaml << 'EOF'\
-apiVersion: v1\
-kind: PersistentVolumeClaim\
-metadata:\
-  name: wp-pv-claim\
-spec:\
-  accessModes:\
-    - ReadWriteOnce\
-  resources:\
-    requests:\
-      storage: 20Gi\
-EOF\
-\
 kubectl apply -f mysql-pvc.yaml\
 kubectl apply -f wordpress-pvc.yaml\
 kubectl get pvc
-cat > mysql-deployment.yaml << 'EOF'\
-apiVersion: v1\
-kind: Service\
-metadata:\
-  name: wordpress-mysql\
-spec:\
-  type: ClusterIP\
-  selector:\
-    app: wordpress\
-    tier: mysql\
-  ports:\
-  - port: 3306\
-    targetPort: 3306\
----\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: wordpress-mysql\
-spec:\
-  selector:\
-    matchLabels:\
-      app: wordpress\
-      tier: mysql\
-  template:\
-    metadata:\
-      labels:\
-        app: wordpress\
-        tier: mysql\
-    spec:\
-      containers:\
-      - name: mysql\
-        image: mysql:8.0\
-        env:\
-        - name: MYSQL_ROOT_PASSWORD\
-          valueFrom:\
-            secretKeyRef:\
-              name: mysql-pass\
-              key: password\
-        ports:\
-        - containerPort: 3306\
-        volumeMounts:\
-        - name: mysql-storage\
-          mountPath: /var/lib/mysql\
-      volumes:\
-      - name: mysql-storage\
-        persistentVolumeClaim:\
-          claimName: mysql-pv-claim\
-EOF\
-\
 kubectl apply -f mysql-deployment.yaml\
 kubectl get pods
 kubectl get pods
-cat > wordpress-deployment.yaml << 'EOF'\
-apiVersion: v1\
-kind: Service\
-metadata:\
-  name: wordpress\
-spec:\
-  type: LoadBalancer\
-  selector:\
-    app: wordpress\
-    tier: frontend\
-  ports:\
-  - port: 80\
-    targetPort: 80\
----\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: wordpress\
-spec:\
-  selector:\
-    matchLabels:\
-      app: wordpress\
-      tier: frontend\
-  template:\
-    metadata:\
-      labels:\
-        app: wordpress\
-        tier: frontend\
-    spec:\
-      containers:\
-      - name: wordpress\
-        image: wordpress:6.2.1-apache\
-        env:\
-        - name: WORDPRESS_DB_HOST\
-          value: wordpress-mysql\
-        - name: WORDPRESS_DB_PASSWORD\
-          valueFrom:\
-            secretKeyRef:\
-              name: mysql-pass\
-              key: password\
-        ports:\
-        - containerPort: 80\
-        volumeMounts:\
-        - name: wordpress-storage\
-          mountPath: /var/www/html\
-      volumes:\
-      - name: wordpress-storage\
-        persistentVolumeClaim:\
-          claimName: wp-pv-claim\
-EOF\
-\
 kubectl apply -f wordpress-deployment.yaml\
 kubectl get pods\
 kubectl get services
 kubectl get pods
 kubectl get service
 kubectl get pods\
-
-coliam ssh
-colima ssh
 kubectl logs wordpress-76f7bdb866-jkglj
 kubectl set env deployment/wordpress-mysql MYSQL_DATABASE=wordpress\
-
 kubectl get pods -w
-colima ssh
 kubectl get pods -w
 kubectl logs wordpress-76f7bdb866-jkglj
-col
-colima ssh
 kubectl set env deployment/wordpress WORDPRESS_DB_NAME=wordpress\
 kubectl rollout restart deployment/wordpress\
 kubectl get pods -w
-colima ssh
 kubectl get pods -w
 kubectl logs wordpress-76f7bdb866-jkglj
 kubectl logs wordpress-7769c6d469-vxrnj
 kubectl logs wordpress-mysql-b45cb7fff-n52m6
 kubectl set env deployment/wordpress-mysql MYSQL_ROOT_PASSWORD_HASH= \
 kubectl patch deployment wordpress-mysql --patch='\
-{\
-  "spec": {\
-    "template": {\
-      "spec": {\
-        "containers": [{\
-          "name": "mysql",\
-          "args": ["--default-authentication-plugin=mysql_native_password"]\
-        }]\
-      }\
-    }\
-  }\
-}'\
 kubectl rollout restart deployment/wordpress-mysql\
 kubectl get pods -w
 kubectl get pods -w
-colima ssh
 kubectl
 kubectl get pods
 kubectl logs wordpress-mysql-746cbdfb7-m8wjm
 kubectl logs wordpress-7769c6d469-vxrnj
-	col
-colima
-colima ssh
 kubectl exec -it wordpress-7769c6d469-vxrnj -- bash -c "cat /var/www/html/wp-config.php | grep DB"
 kubectl set env deployment/wordpress WORDPRESS_DB_USER=root\
 kubectl rollout restart deployment/wordpress\
 kubectl get pods -w
-colima ssh
 kubectl exec -it wordpress-7769c6d469-vxrnj -- bash -c "cat /var/www/html/wp-config.php | grep DB"
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- bash -c "cat /var/www/html/wp-config.php | grep DB"
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- env | grep WORDPRESS
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- bash -c "mysql -h wordpress-mysql -u root -pAzerty123\
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- bash -c 'mysql -h wordpress-mysql -u root -pAzerty123\!'\
-exit\
-exit\
-\
-\
-clear\
-exit
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- bash -c 'mysql -h wordpress-mysql -u root -pAzerty123!'
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- bash -c "cat /var/log/apache2/error.log"
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- bash -c "cat /var/log/apache2/error.log"
@@ -1348,20 +410,13 @@ kubectl logs wordpress-f5f64c57b-dmql9
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- bash -c "curl -s http://localhost/wp-admin/install.php 2>&1 | head -50"
 kubectl exec -it wordpress-f5f64c57b-dmql9 -- bash -c "curl -s http://localhost/wp-admin/install.php 2>&1 | grep -A5 'error-page'"
 kubectl exec -it wordpress-mysql-746cbdfb7-m8wjm -- bash -c 'mysql -u root -pAzerty123! -e "CREATE DATABASE IF NOT EXISTS wordpress;"'
-colima
-colima ssh
 kubectl port-forward --address 0.0.0.0 services/wordpress 8080:80\
-
 minikube service wordpress --url\
-
 kubectl delete all -all
 kubectl delete all --all\
-
 kubectl get pods
 kubectl get pod
 kubectl get service
-clear
-clear
 kubectl create namespace prod
 kubectl get namespaces
 kubectl delete namespaces prod
@@ -1369,69 +424,11 @@ kubectl delete namespaces preprod
 kubectl delete namespaces dev
 kubectl get namespaces
 kubectl get namespaces
-clear
 kubectl create namespace prod
-cat > flask-stripe-configmap.yaml << 'EOF'\
-apiVersion: v1\
-kind: ConfigMap\
-metadata:\
-  name: flask-stripe-config\
-  namespace: prod\
-data:\
-  DEBUG: "False"\
-  ASSETS_ROOT: "/static/assets"\
-  SERVER_ADDRESS: "http://localhost:5005/"\
-EOF\
-\
 kubectl apply -f flask-stripe-configmap.yaml
 kubectl create secret generic stripe-secret \\
-  --from-literal=STRIPE_SECRET_KEY=sk_test_51SyaLR4HH5GhRQBuEHQBnEtR2MvRu9wTfrKtxQ1Wh8j5PQyomdSMt8CUIFgLMCcgQ34AuOukYuXGL4OZAYoMf7Ij00KYz9Cogw \\
-  --from-literal=STRIPE_PUBLISHABLE_KEY=pk_test_51SyaLR4HH5GhRQBukhGXrigALqHX6uFATioiF8cws0RXvvtIpf2GMyeqa2lV4Kmuv82PoOUVAoS7SLvOPu7C1nF100sww0G7Ag \\
-  -n prod
 kubectl get configmap -n prod\
 kubectl get secret -n prod
-cat > prod-flask-stripe.yaml << 'EOF'\
-apiVersion: v1\
-kind: Service\
-metadata:\
-  name: flask-stripe-service\
-  namespace: prod\
-spec:\
-  type: LoadBalancer\
-  selector:\
-    app: flask-stripe\
-  ports:\
-  - port: 5005\
-    targetPort: 5005\
----\
-apiVersion: apps/v1\
-kind: Deployment\
-metadata:\
-  name: flask-stripe-deployment\
-  namespace: prod\
-spec:\
-  replicas: 1\
-  selector:\
-    matchLabels:\
-      app: flask-stripe\
-  template:\
-    metadata:\
-      labels:\
-        app: flask-stripe\
-    spec:\
-      containers:\
-      - name: flask-stripe\
-        image: flask-stripe:v1\
-        imagePullPolicy: Never\
-        ports:\
-        - containerPort: 5005\
-        envFrom:\
-        - configMapRef:\
-            name: flask-stripe-config\
-        - secretRef:\
-            name: stripe-secret\
-EOF\
-\
 kubectl apply -f prod-flask-stripe.yaml\
 kubectl get pods -n prod
 kubectl get pods
@@ -1442,7 +439,6 @@ kubectl get pods -n prod
 kubectl exec -it flask-stripe-deployment-689d549bc8-crq79 -n prod -- env | grep -E "STRIPE|DEBUG|ASSETS|SERVER"
 kubectl get pods -n prod
 kubectl get service -n prod
-colima ssh
 kubectl logs flask-stripe-deployment-689d549bc8-crq79
 kubectl logs flask-stripe-deployment-689d549bc8-crq79 -n prod
 kubectl edit configmap flask-stripe-config -n prod
@@ -1451,9 +447,7 @@ kubectl -f flask-stripe-configmap.yaml
 kubectl apply -f flask-stripe-configmap.yaml
 kubectl edit configmap flask-stripe-config -n prod
 kubectl get pods -n prod\
-
 kubectl get pods -n prod\
-
 kubectl get configmap flask-stripe-config -n prod -o yaml > flask-stripe-configmap.yaml
 kubectl get configmap flask-stripe-config -n prod -o yaml > flask-stripe-configmap.yaml
 kubectl apply -f flask-stripe-configmap.yaml\
@@ -1465,144 +459,23 @@ kubectl exec -it flask-stripe-deployment-5cb4fbb887-4lgbt -n prod -- curl -s htt
 kubectl exec -it flask-stripe-deployment-5cb4fbb887-4lgbt -n prod -- wget -qO- http://localhost:5005/create-checkout-session/featured/
 kubectl exec -it flask-stripe-deployment-5cb4fbb887-4lgbt -n prod -- python3 -c "import urllib.request; print(urllib.request.urlopen('http://localhost:5005/create-checkout-session/featured/').read())"
 	kubectl exec -it flask-stripe-deployment-5cb4fbb887-4lgbt -n prod -- python3 -c "\
-import urllib.request, urllib.error\
-req = urllib.request.Request('http://localhost:5005/create-checkout-session/featured/', method='POST')\
-try:\
-    print(urllib.request.urlopen(req).read())\
-except Exception as e:\
-    print(e)\
-"
 kubectl exec -it flask-stripe-deployment-5cb4fbb887-4lgbt -n prod -- python3 -c "\
-import urllib.request\
-print(urllib.request.urlopen('http://localhost:5005/config').read())\
-"
 kubectl logs flask-stripe-deployment-5cb4fbb887-4lgbt -n prod
 kubectl exec -it flask-stripe-deployment-5cb4fbb887-4lgbt -n prod -- python3 -c "\
-from run import app\
-for rule in app.url_map.iter_rules():\
-    print(rule, rule.methods)\
-"
 kubectl exec -it flask-stripe-deployment-5cb4fbb887-4lgbt -n prod -- python3 -c "\
-import urllib.request, urllib.parse\
-data = urllib.parse.urlencode({'username': 'admin', 'password': 'pass'}).encode()\
-req = urllib.request.Request('http://localhost:5005/login/', data=data, method='POST')\
-try:\
-    resp = urllib.request.urlopen(req)\
-    print(resp.status, resp.url)\
-except Exception as e:\
-    print(e)\
-"
 kubectl delete all --all
-clear
-clear
-colima start
 kubectl update
 minikube update
 minikube update-check
-clear
-clear
-clear
-clear
-claude update
-clear
-clear
-cd Documents
-cd Dev
-brew install codex
-cd /Users/aniki/Documents/Dev/RSE/infera-green-web/apps/web
-npm run lint
-claude
-codex
-clear
-clear
-npm run start:dev
-cd apps/api
-npm run start:dev
-npm run start:dev
-codex
-clear
-cler
-clear
-cler
-clear
-npm run dev
-npm run dev
-npm run dev
-claude
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/montre.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/main.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/bouteille.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/bouteille.py
-/opt/homebrew/bin/python3.13 "/Users/aniki/Documents/Dev/projet_estiam/10 Erreurs.py"
-clear
-/opt/homebrew/bin/python3.13 "/Users/aniki/Documents/Dev/projet_estiam/10 Erreurs.py"
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/exo11.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/exo11.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/exo11.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/exo11.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/pickle_exo.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/pickle_exo.py
-/opt/homebrew/bin/python3.13 /Users/aniki/Documents/Dev/projet_estiam/pickle_exo.py
-clear
-ls
-clear
-claude
-colima start
-cd projet-k8s-RA-05-03-2026
-cp -r ../django-adminlte .\
-
-cp -r ../django-star-admin .\
-cp -r ../priv-rocket-ecommerce-main .
-ls
 cd docker
-cat django-adminlte/env.sample\
-cat django-star-admin/env.sample\
-cat priv-rocket-ecommerce-main/env.sample
-cd ..
-cat django-adminlte/env.sample\
-cat django-star-admin/env.sample\
-cat priv-rocket-ecommerce-main/env.sample
-cat priv-rocket-ecommerce-main/.env
 cd docker
 cat > docker-compose.yaml << 'EOF'\
-services:\
-\
-  django-adminlte-ra-05-03-2026:\
-    build: ../django-adminlte\
-    container_name: django-adminlte-ra-05-03-2026\
-    ports:\
-      - "5001:5005"\
-    env_file:\
-      - ../django-adminlte/env.sample\
-\
-  django-star-ra-05-03-2026:\
-    build: ../django-star-admin\
-    container_name: django-star-ra-05-03-2026\
-    ports:\
-      - "5002:5005"\
-    env_file:\
-      - ../django-star-admin/env.sample\
-\
-  rocket-ecommerce-ra-05-03-2026:\
-    build: ../priv-rocket-ecommerce-main\
-    container_name: rocket-ecommerce-ra-05-03-2026\
-    ports:\
-      - "5003:5005"\
-    env_file:\
-      - ../priv-rocket-ecommerce-main/.env\
-EOF
-cd ..
-ls
-python3 -c "import secrets; print(secrets.token_hex(32))"\
-
-cd kubernetes
 kubectl apply -f dev-django-star-ra-05-03-2026.yaml
 kubectl apply -f preprod-django-adminlte-ra-05-03-2026.yaml
 kubectl apply -f prod-rocket-ecommerce-ra-05-03-2026.yaml
 kubectl get pods -n prod
 kubectl get pods -n preprod
 kubectl get pods -n dev
-cd ..
 git add .
 git commit -m "ajoute manifest, configmap, secret et namespace"
 git push origin main
@@ -1610,4 +483,3 @@ git reset --hard HEAD~1
 git add .
 git commit -m "ajoute manifest, configmap, secret et namespace"
 git push origin main
-history > history-projet-RA-05-03-2026.log
