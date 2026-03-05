@@ -1,0 +1,59 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rocket-ecommerce-config-ra-05-03-2026
+  namespace: prod
+data:
+  DEBUG: "False"
+  DEMO_MODE: "True"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: rocket-ecommerce-secret-ra-05-03-2026
+  namespace: prod
+type: Opaque
+stringData:
+  SECRET_KEY: ""
+  STRIPE_SECRET_KEY: ""
+  STRIPE_PUBLISHABLE_KEY: ""
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rocket-ecommerce-service-ra-05-03-2026
+  namespace: prod
+spec:
+  type: LoadBalancer
+  selector:
+    app: rocket-ecommerce-ra-05-03-2026
+  ports:
+  - port: 5005
+    targetPort: 5005
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rocket-ecommerce-deployment-ra-05-03-2026
+  namespace: prod
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: rocket-ecommerce-ra-05-03-2026
+  template:
+    metadata:
+      labels:
+        app: rocket-ecommerce-ra-05-03-2026
+    spec:
+      containers:
+      - name: rocket-ecommerce-ra-05-03-2026
+        image: rocket-ecommerce-ra-05-03-2026:v1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5005
+        envFrom:
+        - configMapRef:
+            name: rocket-ecommerce-config-ra-05-03-2026
+        - secretRef:
+            name: rocket-ecommerce-secret-ra-05-03-2026

@@ -1,0 +1,56 @@
+preprod-django-adminlte-ra-05-03-2026.yamlapiVersion: v1
+kind: ConfigMap
+metadata:
+  name: django-adminlte-config-ra-05-03-2026
+  namespace: preprod
+data:
+  DEBUG: "False"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: django-adminlte-secret-ra-05-03-2026
+  namespace: preprod
+type: Opaque
+stringData:
+  SECRET_KEY: ""
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: django-adminlte-service-ra-05-03-2026
+  namespace: preprod
+spec:
+  type: NodePort
+  selector:
+    app: django-adminlte-ra-05-03-2026
+  ports:
+  - port: 5005
+    targetPort: 5005
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-adminlte-deployment-ra-05-03-2026
+  namespace: preprod
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: django-adminlte-ra-05-03-2026
+  template:
+    metadata:
+      labels:
+        app: django-adminlte-ra-05-03-2026
+    spec:
+      containers:
+      - name: django-adminlte-ra-05-03-2026
+        image: django-adminlte-ra-05-03-2026:v1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5005
+        envFrom:
+        - configMapRef:
+            name: django-adminlte-config-ra-05-03-2026
+        - secretRef:
+            name: django-adminlte-secret-ra-05-03-2026

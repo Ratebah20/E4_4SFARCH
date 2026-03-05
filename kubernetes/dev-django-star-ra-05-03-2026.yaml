@@ -1,0 +1,56 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: django-star-config-ra-05-03-2026
+  namespace: dev
+data:
+  DEBUG: "False"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: django-star-secret-ra-05-03-2026
+  namespace: dev
+type: Opaque
+stringData:
+  SECRET_KEY: ""
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: django-star-service-ra-05-03-2026
+  namespace: dev
+spec:
+  type: ClusterIP
+  selector:
+    app: django-star-ra-05-03-2026
+  ports:
+  - port: 5005
+    targetPort: 5005
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-star-deployment-ra-05-03-2026
+  namespace: dev
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: django-star-ra-05-03-2026
+  template:
+    metadata:
+      labels:
+        app: django-star-ra-05-03-2026
+    spec:
+      containers:
+      - name: django-star-ra-05-03-2026
+        image: django-star-ra-05-03-2026:v1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5005
+        envFrom:
+        - configMapRef:
+            name: django-star-config-ra-05-03-2026
+        - secretRef:
+            name: django-star-secret-ra-05-03-2026
