@@ -2,7 +2,7 @@
 
 **Auteur :** RATEB
 **Date :** 5 mars 2026
-**Environnement :** macOS (MacBook Air M1), Minikube, Docker (Colima), kubectl
+**Environnement :** macOS, Minikube, Docker (Colima), kubectl
 
 ---
 
