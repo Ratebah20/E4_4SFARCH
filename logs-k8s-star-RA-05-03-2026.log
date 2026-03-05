@@ -1,0 +1,30 @@
+  forwarder_headers: ['SCRIPT_NAME', 'PATH_INFO']
+  header_map: drop
+[2026-03-05 10:00:44 +0000] [1] [INFO] Starting gunicorn 23.0.0
+[2026-03-05 10:00:44 +0000] [1] [DEBUG] Arbiter booted
+[2026-03-05 10:00:44 +0000] [1] [INFO] Listening at: http://0.0.0.0:5005 (1)
+[2026-03-05 10:00:44 +0000] [1] [INFO] Using worker: sync
+[2026-03-05 10:00:44 +0000] [6] [INFO] Booting worker with pid: 6
+[2026-03-05 10:00:44 +0000] [1] [DEBUG] 1 workers
+/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py:61: UserWarning: No directory at: /staticfiles/
+  mw_instance = middleware(adapted_handler)
+  forwarder_headers: ['SCRIPT_NAME', 'PATH_INFO']
+  header_map: drop
+[2026-03-05 10:00:44 +0000] [1] [INFO] Starting gunicorn 23.0.0
+[2026-03-05 10:00:44 +0000] [1] [DEBUG] Arbiter booted
+[2026-03-05 10:00:44 +0000] [1] [INFO] Listening at: http://0.0.0.0:5005 (1)
+[2026-03-05 10:00:44 +0000] [1] [INFO] Using worker: sync
+[2026-03-05 10:00:44 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-03-05 10:00:44 +0000] [1] [DEBUG] 1 workers
+/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py:61: UserWarning: No directory at: /staticfiles/
+  mw_instance = middleware(adapted_handler)
+  forwarder_headers: ['SCRIPT_NAME', 'PATH_INFO']
+  header_map: drop
+[2026-03-05 10:00:44 +0000] [1] [INFO] Starting gunicorn 23.0.0
+[2026-03-05 10:00:44 +0000] [1] [DEBUG] Arbiter booted
+[2026-03-05 10:00:44 +0000] [1] [INFO] Listening at: http://0.0.0.0:5005 (1)
+[2026-03-05 10:00:44 +0000] [1] [INFO] Using worker: sync
+[2026-03-05 10:00:44 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-03-05 10:00:44 +0000] [1] [DEBUG] 1 workers
+/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py:61: UserWarning: No directory at: /staticfiles/
+  mw_instance = middleware(adapted_handler)

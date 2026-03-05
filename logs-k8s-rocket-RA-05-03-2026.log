@@ -1,0 +1,30 @@
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2026-03-05 10:01:03 +0000] [1] [INFO] Starting gunicorn 21.2.0
+[2026-03-05 10:01:03 +0000] [1] [DEBUG] Arbiter booted
+[2026-03-05 10:01:03 +0000] [1] [INFO] Listening at: http://0.0.0.0:5005 (1)
+[2026-03-05 10:01:03 +0000] [1] [INFO] Using worker: sync
+[2026-03-05 10:01:03 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-03-05 10:01:03 +0000] [1] [DEBUG] 1 workers
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2026-03-05 10:01:03 +0000] [1] [INFO] Starting gunicorn 21.2.0
+[2026-03-05 10:01:03 +0000] [1] [DEBUG] Arbiter booted
+[2026-03-05 10:01:03 +0000] [1] [INFO] Listening at: http://0.0.0.0:5005 (1)
+[2026-03-05 10:01:03 +0000] [1] [INFO] Using worker: sync
+[2026-03-05 10:01:03 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-03-05 10:01:03 +0000] [1] [DEBUG] 1 workers
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2026-03-05 10:01:03 +0000] [1] [INFO] Starting gunicorn 21.2.0
+[2026-03-05 10:01:03 +0000] [1] [DEBUG] Arbiter booted
+[2026-03-05 10:01:03 +0000] [1] [INFO] Listening at: http://0.0.0.0:5005 (1)
+[2026-03-05 10:01:03 +0000] [1] [INFO] Using worker: sync
+[2026-03-05 10:01:03 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-03-05 10:01:03 +0000] [1] [DEBUG] 1 workers
