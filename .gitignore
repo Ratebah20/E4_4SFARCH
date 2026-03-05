@@ -1,0 +1,17 @@
+ Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.sqlite3
+
+# Node
+node_modules/
+
+# Static
+staticfiles/
+media/
+
+# Docker
+*.log
