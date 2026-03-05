@@ -1,5 +1,13 @@
-  do_handshake_on_connect: False
-  ciphers: None
+[2026-03-05 10:31:06 +0000] [1] [ERROR] Worker (pid:10) exited with code 1.
+[2026-03-05 10:31:06 +0000] [11] [INFO] Booting worker with pid: 11
+[2026-03-05 10:31:07 +0000] [11] [DEBUG] GET /success/
+127.0.0.1 - - [05/Mar/2026:10:31:07 +0000] "GET /success/?session_id=cs_test_a1tMTvN2O1ptZ6QGjpl5oYuMxj8ODrPM5GwUjFIZCFHXJ19N6PFVNad700 HTTP/1.1" 500 145 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+127.0.0.1 - - [05/Mar/2026:10:31:07 +0000] "GET /favicon.ico HTTP/1.1" 404 179 "http://localhost:8080/success/?session_id=cs_test_a1tMTvN2O1ptZ6QGjpl5oYuMxj8ODrPM5GwUjFIZCFHXJ19N6PFVNad700" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+[2026-03-05 10:31:07 +0000] [11] [DEBUG] GET /favicon.ico
+[2026-03-05 10:31:17 +0000] [11] [DEBUG] GET /success/
+127.0.0.1 - - [05/Mar/2026:10:31:17 +0000] "GET /success/?session_id=cs_test_a1tMTvN2O1ptZ6QGjpl5oYuMxj8ODrPM5GwUjFIZCFHXJ19N6PFVNad700 HTTP/1.1" 500 145 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+[2026-03-05 10:31:21 +0000] [11] [DEBUG] GET /.well-known/appspecific/com.chrome.devtools.json
+127.0.0.1 - - [05/Mar/2026:10:31:21 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
   raw_paste_global_conf: []
   strip_header_spaces: False
 [2026-03-05 10:01:03 +0000] [1] [INFO] Starting gunicorn 21.2.0
@@ -8,16 +16,8 @@
 [2026-03-05 10:01:03 +0000] [1] [INFO] Using worker: sync
 [2026-03-05 10:01:03 +0000] [7] [INFO] Booting worker with pid: 7
 [2026-03-05 10:01:03 +0000] [1] [DEBUG] 1 workers
-  do_handshake_on_connect: False
-  ciphers: None
-  raw_paste_global_conf: []
-  strip_header_spaces: False
-[2026-03-05 10:01:03 +0000] [1] [INFO] Starting gunicorn 21.2.0
-[2026-03-05 10:01:03 +0000] [1] [DEBUG] Arbiter booted
-[2026-03-05 10:01:03 +0000] [1] [INFO] Listening at: http://0.0.0.0:5005 (1)
-[2026-03-05 10:01:03 +0000] [1] [INFO] Using worker: sync
-[2026-03-05 10:01:03 +0000] [7] [INFO] Booting worker with pid: 7
-[2026-03-05 10:01:03 +0000] [1] [DEBUG] 1 workers
+[2026-03-05 10:20:02 +0000] [7] [DEBUG] HEAD /
+10.244.0.1 - - [05/Mar/2026:10:20:03 +0000] "HEAD / HTTP/1.1" 200 20823 "-" "curl/8.5.0"
   do_handshake_on_connect: False
   ciphers: None
   raw_paste_global_conf: []
